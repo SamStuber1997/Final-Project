@@ -56,7 +56,7 @@ Partial Class MainForm
 		'CloseToolStripMenuItem
 		'
 		Me.CloseToolStripMenuItem.Name = "CloseToolStripMenuItem"
-		Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(152, 26)
+		Me.CloseToolStripMenuItem.Size = New System.Drawing.Size(122, 26)
 		Me.CloseToolStripMenuItem.Text = "Close "
 		'
 		'InventoryToolStripMenuItem
@@ -111,9 +111,9 @@ Partial Class MainForm
 		Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
 		Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.Label1.ForeColor = System.Drawing.Color.Blue
-		Me.Label1.Location = New System.Drawing.Point(72, 72)
+		Me.Label1.Location = New System.Drawing.Point(71, 53)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(286, 115)
+		Me.Label1.Size = New System.Drawing.Size(286, 134)
 		Me.Label1.TabIndex = 1
 		Me.Label1.Text = "Stuber's Auto Sales "
 		Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
