@@ -106,6 +106,12 @@
     <Compile Include="RemoveVehicle.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SoldVehicle.Designer.vb">
+      <DependentUpon>SoldVehicle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SoldVehicle.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddVehicle.resx">
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RemoveVehicle.resx">
       <DependentUpon>RemoveVehicle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoldVehicle.resx">
+      <DependentUpon>SoldVehicle.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
