@@ -6,4 +6,8 @@
 	Private Sub AddVehicleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddVehicleToolStripMenuItem.Click
 		frmAddVehicle.ShowDialog()
 	End Sub
+
+	Private Sub RemoveVehicleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RemoveVehicleToolStripMenuItem.Click
+		frmRemoveVehicle.ShowDialog()
+	End Sub
 End Class
