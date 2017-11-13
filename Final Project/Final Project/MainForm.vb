@@ -18,4 +18,8 @@
 	Private Sub InventoryReportToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InventoryReportToolStripMenuItem.Click
 		frmInventory.ShowDialog()
 	End Sub
+
+	Private Sub InventoryStatusToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InventoryStatusToolStripMenuItem.Click
+		frmDealerStatus.ShowDialog()
+	End Sub
 End Class

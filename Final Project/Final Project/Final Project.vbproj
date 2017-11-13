@@ -78,6 +78,12 @@
     <Compile Include="AddVehicle.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DealerStatus.Designer.vb">
+      <DependentUpon>DealerStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DealerStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Inventory.Designer.vb">
       <DependentUpon>Inventory.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AddVehicle.resx">
       <DependentUpon>AddVehicle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DealerStatus.resx">
+      <DependentUpon>DealerStatus.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventory.resx">
       <DependentUpon>Inventory.vb</DependentUpon>
