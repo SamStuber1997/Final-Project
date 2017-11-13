@@ -43,6 +43,8 @@ Partial Class frmAddVehicle
 		Me.txtDriveTrain = New System.Windows.Forms.TextBox()
 		Me.txtMilage = New System.Windows.Forms.TextBox()
 		Me.Label11 = New System.Windows.Forms.Label()
+		Me.Label13 = New System.Windows.Forms.Label()
+		Me.dtpArrival = New System.Windows.Forms.DateTimePicker()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -221,18 +223,37 @@ Partial Class frmAddVehicle
 		Me.Label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
 		Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.Label11.ForeColor = System.Drawing.Color.Blue
-		Me.Label11.Location = New System.Drawing.Point(158, 302)
+		Me.Label11.Location = New System.Drawing.Point(157, 322)
 		Me.Label11.Name = "Label11"
 		Me.Label11.Size = New System.Drawing.Size(286, 134)
 		Me.Label11.TabIndex = 20
 		Me.Label11.Text = "Stuber's Auto Sales "
 		Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
 		'
+		'Label13
+		'
+		Me.Label13.AutoSize = True
+		Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.Label13.Location = New System.Drawing.Point(176, 279)
+		Me.Label13.Name = "Label13"
+		Me.Label13.Size = New System.Drawing.Size(95, 20)
+		Me.Label13.TabIndex = 45
+		Me.Label13.Text = "Arrival Date:"
+		'
+		'dtpArrival
+		'
+		Me.dtpArrival.Location = New System.Drawing.Point(277, 279)
+		Me.dtpArrival.Name = "dtpArrival"
+		Me.dtpArrival.Size = New System.Drawing.Size(200, 20)
+		Me.dtpArrival.TabIndex = 46
+		'
 		'frmAddVehicle
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(619, 465)
+		Me.Controls.Add(Me.dtpArrival)
+		Me.Controls.Add(Me.Label13)
 		Me.Controls.Add(Me.Label11)
 		Me.Controls.Add(Me.txtMilage)
 		Me.Controls.Add(Me.txtDriveTrain)
@@ -282,4 +303,6 @@ Partial Class frmAddVehicle
 	Friend WithEvents txtDriveTrain As TextBox
 	Friend WithEvents txtMilage As TextBox
 	Friend WithEvents Label11 As Label
+	Friend WithEvents Label13 As Label
+	Friend WithEvents dtpArrival As DateTimePicker
 End Class
