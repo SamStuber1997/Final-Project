@@ -10,4 +10,12 @@
 	Private Sub RemoveVehicleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RemoveVehicleToolStripMenuItem.Click
 		frmRemoveVehicle.ShowDialog()
 	End Sub
+
+	Private Sub SoldVehicleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SoldVehicleToolStripMenuItem.Click
+		frmRemoveVehicle.ShowDialog()
+	End Sub
+
+	Private Sub InventoryReportToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InventoryReportToolStripMenuItem.Click
+		frmInventory.ShowDialog()
+	End Sub
 End Class
